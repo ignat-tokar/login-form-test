@@ -1,0 +1,29 @@
+.Wrapper {
+  width: 30%;
+  margin: auto;
+  padding-top: 20vh;
+}
+button {
+  width: 100%;
+  font-size: 25pt;
+  border:none;
+  background-color: rgb(46, 46, 255);
+  color: white;
+  border-radius: 10px;
+  padding: 10pt 0;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(71, 71, 255);
+}
+input {
+  width: 92%;
+  font-size: 23pt;
+  border-radius: 10px;
+  padding: 10pt 10pt;
+  margin-bottom: 20pt;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+}
