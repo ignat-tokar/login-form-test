@@ -4,7 +4,7 @@ import Wrapper from "./Wrapper";
 function Welcome({login}) {
 	const navigate = useNavigate();
 	const navFunc = () => {
-		navigate('/');
+		navigate('/login-form-test');
 	}
 	return (
 		<Wrapper>

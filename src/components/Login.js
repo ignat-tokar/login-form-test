@@ -16,7 +16,7 @@ function Login({login, password}) {
 		if(loginValue === login && passValue === password){
 			localStorage.setItem('test-login-form-auth-state', true);
 			alert('You are authorized');
-			navigate('/welcome');			
+			navigate('/login-form-test/welcome');			
 		}else{
 			alert('Login or password is incorrect');
 		}

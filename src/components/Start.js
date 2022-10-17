@@ -5,7 +5,7 @@ import Wrapper from "./Wrapper";
 function Start({login}) {
 	const navigate = useNavigate();
 	const navFunc = () => {
-		navigate('/login');
+		navigate('/login-form-test/login');
 	}
 	if(localStorage.getItem('test-login-form-auth-state')) {
 		return <Welcome login={login} />
